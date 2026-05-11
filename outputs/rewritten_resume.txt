@@ -1,5 +1,43 @@
-John Doe
-Machine Learning Engineer
-Skills: Strong Python skills, Machine Learning, TensorFlow, SQL, and knowledge of databases
-Experience: 2 years at ABC Corp, where I am looking for opportunities to leverage my skills, working with cross-functional teams to build and deploy ML models using frameworks like TensorFlow, and utilizing databases to inform model development. I am excited to bring my experience and strong technical foundation to a new role.
-Education: B.Tech Computer Science, with a solid foundation in computer science principles and a strong understanding of ML concepts, similar to those implemented in PyTorch.
+Sanjana M
+Bangalore | muthyasanjana@gmail.com | 9606675280 |
+LinkedIn – Sanjana M | github-sanj004
+
+Profile Summary
+Results-driven MCA student with a strong foundation in Python programming, web development, and Machine Learning. Experienced in building AI-powered applications, working with real-world datasets, and collaborating with teammates to apply ML and AI to solve meaningful problems. Proficient in utilizing Git for version control and familiar with large datasets, with hands-on exposure to NLP, behavioural analysis, and intelligent systems.
+
+Education
+PES University, Master of Computer Applications (MCA), Sept 2025 - Present
+BMS College of Commerce and Management, Bachelor of Computer Applications, Sept 2022 – 2025
+• CGPA: 7.68
+Sadhana PU College, PCMC, July 2020 – April 2022
+• Percentage: 60%
+Manasarovar Pushkarini Vidhyashrama, Xth Grade June 2012 – March 2020
+• Percentage: 67%
+
+Technologies
+Languages: Python, HTML, CSS, JavaScript
+Technologies and Tools: NodeJS, ExpressJS, MongoDB, bycrptJS, REST API, SQL
+ML/AI: Supervised Learning, NLP(Basic), scikit-learn, pandas, Deep Learning concepts, Machine Learning algorithms and frameworks
+
+Projects
+Resume Analyzer
+• Built an ML-Based tool that analyzes resumes and provides feedback or matching scores, utilizing teamwork and collaboration to design and develop the project
+• Applied NLP techniques to parse and evaluate resume content, preprocessing data and working with large datasets
+Learnify: AI-driven e-learning Platform
+• Developed an interactive e-learning platform featuring an AI-powered chatbot and interview bot, looking to improve technical concepts and interview preparation for learners
+• Worked as an engineer on the project, implementing programming principles and ensuring seamless integration of components
+
+Positions
+Event Organiser – Hindi Club, Samskruthi and Flair Festivals
+• Led the planning, coordination, and execution of cultural events and activities during Samskruthi and Flair festivals, demonstrating strong teamwork and communication skills
+Fundraiser Volunteer – Local Dog Shelter Initiative
+• Actively participated in fundraising campaigns to support local dog shelters, raising awareness about animal welfare in the community and working collaboratively with teammates
+Environment Volunteer – E-Cell Club
+• Collaborated with team members to develop and implement campus-wide initiatives encouraging environmental responsibility among students, utilizing Git for version control and ensuring effective teamwork
+
+Certificates
+Introduction to Data Science, by IBM
+Supervised Machine Learning, by Andrew NG (Coursera)
+Python for Data Science, AI and Development, by IBM
+
+Note: Although the original resume mentioned experience with TensorFlow or PyTorch is not present, it is recommended to take courses or gain experience in these areas to enhance the chances of selection for the Machine Learning Engineer Intern role.
