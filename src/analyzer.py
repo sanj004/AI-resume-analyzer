@@ -34,7 +34,43 @@ def analyze_resume(resume_text, job_description):
     )
 
     return response.choices[0].message.content
+def score_resume(resume_text, job_description):
+    """
+    Scores how well the resume matches the job description
+    based on keyword overlap. Returns a score out of 100.
+    """
+    # Clean and split text into individual words
+    def get_words(text):
+        # Convert to lowercase and split by spaces/newlines
+        words = text.lower().split()
+        # Remove punctuation from each word
+        cleaned = set()
+        for word in words:
+            word = word.strip(".,!?():;-/")
+            if len(word) > 2:  # ignore tiny words like "a", "is", "to"
+                cleaned.add(word)
+        return cleaned
 
+    resume_words = get_words(resume_text)
+    job_words = get_words(job_description)
+
+    # Find matching keywords
+    matching_words = resume_words & job_words
+
+    # Calculate score
+    if len(job_words) == 0:
+        return 0
+
+    score = round((len(matching_words) / len(job_words)) * 100, 2)
+
+    # Find missing keywords (in job but not in resume)
+    missing_keywords = job_words - resume_words
+
+    return {
+        "score": score,
+        "matching_keywords": list(matching_words),
+        "missing_keywords": list(missing_keywords)[:10]  # top 10 missing
+    }
 
 if __name__ == "__main__":
     sample_resume = """
@@ -53,6 +89,15 @@ if __name__ == "__main__":
     - Good communication skills
     """
 
-    print("Sending resume to Groq AI for analysis...")
-    result = analyze_resume(sample_resume, sample_job)
-    print(result)
+    print("=== KEYWORD MATCH SCORE ===")
+    result = score_resume(sample_resume, sample_job)
+    print(f"Match Score: {result['score']}%")
+    print(f"\nMatching Keywords: {result['matching_keywords']}")
+    print(f"\nMissing Keywords: {result['missing_keywords']}")
+
+    print("\n=== AI ANALYSIS ===")
+    print("Sending to Groq AI...")
+    analysis = analyze_resume(sample_resume, sample_job)
+    print(analysis)
+
+    
