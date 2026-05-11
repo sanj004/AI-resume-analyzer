@@ -27,7 +27,7 @@ def analyze_resume(resume_text, job_description):
     """
 
     response = client.chat.completions.create(
-        model="llama-3.1-8b-instant",  # ← replace llama3-8b-8192 with this
+        model="llama-3.3-70b-versatile",  # ← replace llama3-8b-8192 with this
         messages=[
             {"role": "user", "content": prompt}
         ]

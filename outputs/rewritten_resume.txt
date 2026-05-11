@@ -1,0 +1,5 @@
+John Doe
+Machine Learning Engineer
+Skills: Strong Python skills, Machine Learning, TensorFlow, SQL, and knowledge of databases
+Experience: 2 years at ABC Corp, where I am looking for opportunities to leverage my skills, working with cross-functional teams to build and deploy ML models using frameworks like TensorFlow, and utilizing databases to inform model development. I am excited to bring my experience and strong technical foundation to a new role.
+Education: B.Tech Computer Science, with a solid foundation in computer science principles and a strong understanding of ML concepts, similar to those implemented in PyTorch.
